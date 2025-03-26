@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht,initial-scale=1">
+    <meta name="description" content="Trabalho numero 01 de Design de Interfaces - Curso Tads">
+    <meta name="Keywords" content="HTML, CSS, HTML5, tads">
+    <title>Trabalho 01 Design Interfaces</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th,
+        td {
+            padding: 2px;
+            border: solid 1px red;
+        }
+
+        ul {
+            list-style: disc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Trabalho 01 Design de Interfaces</h1>
+        <p>A secretaria do Rio Grande do Sul confirmou, nesta quinta-feira(20)
+            a primeira morte causada por <b>Dengue</b> no ano de 2025. A nova vitima
+            era uma <i>uma mulher de 59 anos</i> com comorbidades prévias.</p>
+
+
+        <nav>
+            <ul>
+                <li>Menu</li>
+                <li>Principal</li>
+                <li>Produtos</li>
+                <li>Serviços</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="lista">
+            <div class="lista--frutas">
+                <ol>
+                    <li>Frutas</li>
+                    <li>
+                        <ul>
+                            <li>banana</li>
+                            <li>Maça</li>
+                            <li>Abacate</li>
+
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="lista--legumes">
+                <ol>
+                    <li>Legumes</li>
+                    <li>
+                        <ul>
+                            <li>cebola</li>
+                            <li>pimentão</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="lista--cereais">
+                <ol>
+                    <li>cereais</li>
+                    <li>
+                        <ul>
+                            <li>Arroz</li>
+                            <li>Feijão</li>
+                        </ul>
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <table>
+            <caption>Lucro Mensal</caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maça</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+
+                <tr>
+                    <td>fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+
+                <tr>
+                    <td>março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br><br>
+
+        <a href="https://ifrs.edu.br/riogrande/" target="_blank"><img src="./img/img01.jpg" width="750" height="350"
+                alt="campus riogrande"></a>
+        <figure>
+            <img src="./img/img02.jpg" alt="Logo Tads">
+            <figcaption>Logo Tads</figcaption>
+
+        </figure>
+
+        <form action="semerro.php" method="get">
+            <fieldset>
+                <legend>Digite seus Dados</legend>
+
+                <label for="Nome_Completo">Nome Completo:</label>
+                <input type="text" name="Nome_Completo" id="Nome_Completo" placeholder="Nome_Completo" required><br><br>
+
+                <label for="Email">Email:</label>
+                <input type="Email" name="Email" id="Email" placeholder="Email" required><br><br>
+
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Senha" required><br><br>
+
+                <label for="Telefone">Digite o seu Telefone:</label>
+                <input type="tel" name="Telefone" id="Telefone" placeholder="(99)99999-9999" required><br><br>
+
+                <label for="date">Data de Nascimento:</label>
+                <input type="date" name="date" id="date" required><br><br>
+
+                <input type="submit" value="Cadastro">
+
+            </fieldset>
+        </form><br><br>
+
+        <div class="frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sj0p9O85AIg?si=lWMGVZjyuaBz0Zm7"
+             title="YouTube video player" 
+             frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+             referrerpolicy="strict-origin-when-cross-origin" 
+             allowfullscreen></iframe>
+        </div>
+
+        <br><br>
+
+    </main>
+
+    <footer>
+        <hr>
+        Rio Grande - Rio Grande do Sul, Cidade nova
+
+    </footer>
+
+</body>
+
+</html> 
